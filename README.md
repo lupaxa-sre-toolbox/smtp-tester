@@ -4,15 +4,9 @@
   </a>
 </p>
 
-<h1 align="center">smtp-tester</h1>
+<h1 align="center">SMTP Tester</h1>
 
 Send a test email through an SMTP server to verify delivery.
-
-<p align="center">
-  <a href="https://smtp-tester.thelupaxaproject.org/">Documentation</a>
-  ·
-  <a href="https://github.com/lupaxa-sre-toolbox/smtp-tester">GitHub</a>
-</p>
 
 ## Install
 
@@ -66,6 +60,13 @@ make python-install-dev
 make python-check
 make mkdocs-serve
 ```
+
+## Documentation
+
+The published guide is at
+<https://smtp-tester.thelupaxaproject.org/>.
+
+Site Markdown lives in `mkdocs/`.
 
 <a href="https://github.com/the-lupaxa-project">
     <img src="https://raw.githubusercontent.com/the-lupaxa-project/brand-assets/master/logos/components/footer-for-child-orgs.svg" alt="The Lupaxa Project Footer" width="100%" />

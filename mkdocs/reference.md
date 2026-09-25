@@ -1,6 +1,6 @@
 # Reference
 
-## CLI arguments
+## CLI Arguments
 
 | Flag              | Default               | Description                                   |
 | :---------------- | :-------------------- | :-------------------------------------------- |
@@ -21,7 +21,7 @@
 `--timeout` must be greater than `0` when set. `--tls` never issues
 STARTTLS. Without `--tls` or `--no-starttls`, STARTTLS is required.
 
-## Exit codes
+## Exit Codes
 
 | Code | When                                                              |
 | :--- | :---------------------------------------------------------------- |

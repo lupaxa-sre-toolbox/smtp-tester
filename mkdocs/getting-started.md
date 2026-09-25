@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 
 ## Requirements
 
@@ -35,7 +35,7 @@ Module entry point:
 python -m lupaxa.smtp_tester --version
 ```
 
-### From source (development)
+### From Source (Development)
 
 ```bash
 make init
@@ -43,7 +43,7 @@ make python-install-dev
 smtp-tester --version
 ```
 
-## First run
+## First Run
 
 Pass From, To, and the SMTP host. Add username and password when the
 server requires AUTH:
@@ -62,7 +62,7 @@ internal relay. `--verbose` logs steps without protocol payloads. A
 successful send prints `email sent to …` and exits `0`. Failures go to
 stderr and exit `1`.
 
-## Makefile helpers
+## Makefile Helpers
 
 ```bash
 make init                 # clone makefile-skills into .makefiles/

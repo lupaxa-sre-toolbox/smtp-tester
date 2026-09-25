@@ -15,7 +15,7 @@ smtp-tester --from-address from@example.com --to-address to@example.com \
 
 You can also run `python -m lupaxa.smtp_tester`.
 
-## What it does
+## What it Does
 
 - Opens one SMTP session to the host and port you name
 - Requires STARTTLS unless you use implicit TLS or `--no-starttls`
@@ -24,10 +24,3 @@ You can also run `python -m lupaxa.smtp_tester`.
 - Returns a success or failure reason and optional SMTP status code
 - Never echoes the password, including under `--verbose`
 - Exposes `send_test_message` as a library function
-
-## Next steps
-
-- [Getting started](getting-started.md) — install and first run
-- [Usage](usage.md) — CLI flags and the library API
-- [Reference](reference.md) — arguments, defaults, and exit codes
-- [Examples](examples.md) — common SMTP recipes

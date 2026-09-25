@@ -1,6 +1,6 @@
 # Examples
 
-## Submission on port 587
+## Submission on Port 587
 
 ```bash
 smtp-tester --from-address from@example.com --to-address to@example.com \
@@ -11,7 +11,7 @@ smtp-tester --from-address from@example.com --to-address to@example.com \
 STARTTLS is required. The send fails if the server does not advertise
 it.
 
-## Implicit TLS on port 465
+## Implicit TLS on Port 465
 
 ```bash
 smtp-tester --from-address from@example.com --to-address to@example.com \
@@ -19,7 +19,7 @@ smtp-tester --from-address from@example.com --to-address to@example.com \
   --smtp-server smtp.example.com --smtp-port 465 --tls
 ```
 
-## Internal relay without AUTH
+## Internal Relay without AUTH
 
 ```bash
 smtp-tester --from-address from@example.com --to-address to@example.com \
@@ -29,7 +29,7 @@ smtp-tester --from-address from@example.com --to-address to@example.com \
 Omit both username and password. `--no-starttls` is for a plaintext
 lab or internal relay you already trust.
 
-## Credentials from the environment
+## Credentials from the Environment
 
 ```bash
 export SMTP_USERNAME='USER'
@@ -49,7 +49,7 @@ smtp-tester --from-address from@example.com --to-address to@example.com \
 Use an SES SMTP credential, not the AWS access key itself. The From
 address must be a verified identity in that SES region.
 
-## Custom subject and step logs
+## Custom Subject and Step Logs
 
 ```bash
 smtp-tester --from-address from@example.com --to-address to@example.com \

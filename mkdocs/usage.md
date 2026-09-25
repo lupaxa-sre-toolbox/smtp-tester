@@ -4,7 +4,7 @@ The CLI opens one SMTP session and sends a short plain-text message.
 Short flags match the original script: `-f`, `-t`, `-u`, `-p`, `-s`,
 `-P`, `-T`, and `-v`.
 
-## CLI flags
+## CLI Flags
 
 | Flag              | Default               | Description                                           |
 | :---------------- | :-------------------- | :---------------------------------------------------- |
